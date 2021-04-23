@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!--21861055 박민영-->
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Studio Ghibli</title>
+
+       <style>
+         	*{margin:0; padding:0;}
+          body{background-color:#000000; font-famly:"맑은 고딕";}
+
+          header{background-color:#000000; text-align:right; min-width:100%; position:fixed;}
+          header h2{float:left; padding:8px 0 0 20px;}
+          header p{padding:20px 0 0 0;}
+          #menu:hover{color:#1a9cef; font-weight: bold;}
+          #menu{padding:0 40px 0 0; text-decoration:none; color:#ffffff;}
+
+          div{width:10%;}
+
+          movie{padding:50px 0 0 0;}
+          #movie{margin:120px 0 0 110px;}
+
+          .imgswap img:last-child{display:none}
+          .imgswap:hover img:first-child{display:none}
+          .imgswap:hover img:last-child{display:inline-block}
+
+       </style>
+
+  </head>
+
+  <body>
+    <header>
+      <h2><a href="index.html"><img src="img/rogo.png"></a></h2>
+
+      <p>
+       <a id="menu" href="ghibli.html">GHIBLI</a>
+       <a style="color:#1a9cef; font-weight:bold;" id="menu" href="movie.html">MOVIE</a>
+    
+      </p>
+    </header>
+
+    <a href="sen.html">
+    <span class="imgswap">
+      <img id="movie" src="img/movie1.png">
+      <img id="movie" src="img/movie11.png">
+    </span></a>
+
+    <a href="hawol.html">
+    <span class="imgswap">
+      <img id="movie" src="img/movie2.png">
+      <img id="movie" src="img/movie22.png">
+    </span></a>
+
+    <a href="mono.html">
+    <span class="imgswap">
+      <img id="movie" src="img/movie3.png">
+      <img id="movie" src="img/movie33.png">
+    </span></a>
+
+  </body>
+</html>

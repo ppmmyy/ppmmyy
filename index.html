@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!--21861055 박민영-->
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Studio Ghibli</title>
+
+       <style>
+         	*{margin:0; padding:0;}
+          body{background-color:#000000; font-famly:"맑은 고딕";}
+
+          header{background-color:#000000;text-align:right; min-width:100%; position:fixed;}
+          header h2{float:left; padding:8px 0 0 20px;}
+          header p{padding:20px 0 0 0;}
+          #menu:hover{color:#1a9cef; font-weight: bold;}
+          #menu{padding:0 40px 0 0; text-decoration:none; color:#ffffff;}
+          main{background-image:url("img/ghibli2.jpg"); background-repeat: no-repeat;
+                width:100%; position:relative; left:40px;}
+
+          audio{position:absolute; bottom:30px; right:35px; opacity:60%;}
+
+       </style>
+
+  </head>
+
+  <body>
+    <header>
+      <h2><a href="index.html"><img src="img/rogo.png"></a></h2>
+
+      <p>
+       <a id="menu" href="ghibli.html">GHIBLI</a>
+       <a id="menu" href="movie.html">MOVIE</a>
+
+      </p>
+    </header>
+
+    <img src="img/ghibli2.jpg" alt="">
+
+    <audio src="music/main.mp3" type="audio/mp3"
+        controls autoplay loop width="300px">
+    </audio>
+
+  </body>
+</html>
